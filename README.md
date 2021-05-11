@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Motivational Quotes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo:
+http://motivat1on.netlify.app
 
-## Available Scripts
+![example_gif](./example.gif)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This was the absolute perfect project to work on today.  I received my second dose of the COVID-19 vaccine shot yesterday, and not only does my arm hurt like a son-of-a-bitch, I had some fever-like reactions last night during my sleep cycle.  At the same time it was freezing and blazing hot!  Man, last night sucked.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I say this was the perfect project to work on today, because today, 5/11 is the first day of my 30-day detox challenge, so some motivational quotes are the perfect thing I need to keep me focused on the goal, focused on getting past this vaccine shot, and focused on finding a new job!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I've been applying and applying with minimal-to-no response.  It's very frustrating and disheartening.  But I will NOT give up until I am a professional developer.  I will not give up!
 
-### `npm test`
+PLEASE HIRE ME!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This was a very simple, 30 minute project.  I wasn't feeling very good because of the adverse vaccine reaction, but I still need to "fill those green boxes".  My goal has been for months at least one commit a day.  One new project a day.  Gotta show my dedication!  That being said, I am going to go lay down and relax the rest of the day now that I got my coding in for the day.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React
+* Axios
+* Netlify
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About
 
-### `npm run eject`
+Pretty simple project.  We make axios calls to a public API that serves motivational quotes.  After making the call, we display the result in the App.  The app features a really cool, animated button that let's the user collect a new quote.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+It appears we are rate limited with this API.  pressing the button repeatedly does not issue an instant new quote.  There appears to be a roughly 5 second cooldown before you can get a new quote.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
