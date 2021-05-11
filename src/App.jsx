@@ -1,13 +1,22 @@
 import React from 'react'
+import axios from 'axios'
 
-const App = () => {
-    return (
-        <div>
-            <h1>
-                HELLO FRWENZ
-            </h1>
-        </div>
-    )
+import './App.css'
+
+class App extends React.Component {
+
+    state = { advice: '' };
+
+    componentDidMount() {
+        console.log('component did mount!')
+    }
+
+    render() {
+        return (
+            <h1>APP</h1>
+        )
+    }
+
+
 }
-
 export default App
